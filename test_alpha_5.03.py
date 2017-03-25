@@ -6,16 +6,12 @@ while True:
 		import time
 		if countall > 0:
 			print"Do you want start again? Y/N"
-			Y = "a1"
-			y = "a1"
-			N = "a2"
-			n = "a2"
-			b = input("")
-			if b == "a1":
+			b = raw_input(">")
+			if b == "Y" or "y":
 				print""
 				os.system("cls")
-			elif b == "a2":
-				os._exit() 
+			elif b == "N" or "n":
+				os._exit()
 			else:
 				print"don't enter wrong number!"
 				time.sleep(3)
@@ -27,7 +23,7 @@ while True:
 		print ""
 		print"3:Heartstone"
 		print ""
-		
+
 		print"4:overwatch"
 		print""
 		a = input("Enter a number:")
