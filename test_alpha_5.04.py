@@ -6,10 +6,6 @@ while True:
 		import time
 		if countall > 0:
 			print"Do you want start again? Y/N"
-			'''Y = "a1"
-			y = "a1"
-			N = "a2"
-			n = "a2"'''
 			b = raw_input(">")
 			if b == "Y" or "y":
 				print""
