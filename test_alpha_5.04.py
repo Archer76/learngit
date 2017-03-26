@@ -23,9 +23,8 @@ while True:
 		print ""
 		print"3:Heartstone"
 		print ""
-
 		print"4:overwatch"
-		print""
+		print ""
 		a = input("Enter a number:")
 		if a == 1:
 			count = 0
